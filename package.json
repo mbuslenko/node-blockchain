@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pretty": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "dev": "tsc -w",
-    "start": "ts-node src/index.ts"
+    "start": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,4 @@
-import * as crypto from 'crypto';
-
-export class Transaction {
+export default class Transaction {
  constructor(
    public amount: number,
    public payer: string,

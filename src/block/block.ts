@@ -1,8 +1,8 @@
 import * as crypto from 'crypto';
 
-import { Transaction } from '../transaction/transaction';
+import Transaction from '../transaction/transaction';
 
-export class Block {
+export default class Block {
   public nonce = Math.round(Math.random() * 99999999999)
 
   constructor(public previousHash: string, public transaction: Transaction) {}

@@ -1,8 +1,9 @@
 import * as crypto from 'crypto';
-import { Chain } from '../chain/chain';
-import { Transaction } from '../transaction/transaction';
 
-export class Wallet {
+import Chain from '../chain/chain';
+import Transaction from '../transaction/transaction';
+
+export default class Wallet {
   public publicKey: string;
   public privateKey: string;
 

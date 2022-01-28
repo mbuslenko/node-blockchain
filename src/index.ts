@@ -1,4 +1,4 @@
-import { Wallet } from './wallet/wallet';
+import Wallet from './wallet/wallet';
 
 const user1 = new Wallet();
 const user2 = new Wallet();

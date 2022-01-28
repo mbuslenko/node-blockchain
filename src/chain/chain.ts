@@ -3,10 +3,10 @@ import * as crypto from 'crypto'
 import chalk from 'chalk';
 import { createSpinner } from 'nanospinner';
 
-import { Block } from '../block/block';
-import { Transaction } from '../transaction/transaction';
+import Block from '../block/block';
+import Transaction from '../transaction/transaction';
 
-export class Chain {
+export default class Chain {
   public static instance = new Chain();
 
   chain: Block[] = [];
