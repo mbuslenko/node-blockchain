@@ -1,0 +1,31 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "dev": "tsc -w",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbuslenko/blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbuslenko/blockchain/issues"
+  },
+  "homepage": "https://github.com/mbuslenko/blockchain#readme",
+  "dependencies": {
+    "@types/node": "^17.0.13",
+    "chalk": "^5.0.0",
+    "nanospinner": "^1.0.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
